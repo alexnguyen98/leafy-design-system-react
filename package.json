@@ -2,7 +2,12 @@
   "name": "leafy-design-system",
   "version": "0.0.1",
   "description": "Leafy design system - react component library",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "unpkg": "dist/simplealertcomponent.min.js",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "scripts": {
     "generate-icon": "node ./scripts/iconIndex.js",
     "generate-component": "node ./scripts/iconIndex.js",
