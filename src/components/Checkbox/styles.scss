@@ -1,0 +1,60 @@
+@import '../../styles/common';
+
+.checkbox {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  &.checked .wrapper{
+    span {
+      border-color: $secondary-1;
+      background: $secondary-1;
+      transition: all .1s cubic-bezier(.12, .4, .29, 1.46) .1s;
+      &::after {
+        opacity: 1;
+        transition: all .2s cubic-bezier(.12, .4, .29, 1.46) .2s;
+      }
+    }
+  }
+  p {
+    margin: 0;
+    margin-top: 3px;
+    font-size: .8rem;
+    color: $grey-1;
+  }
+}
+
+.wrapper {
+  margin-right: 10px;
+  position: relative;
+  span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 3px solid $white-4;
+    transition: all .1s cubic-bezier(.71, -0.46, .88, .6), opacity .1s;
+    &::after {
+      opacity: 0;
+      content: "";
+      display: block;
+      width: 4px;
+      height: 9px;
+      border: 2.5px solid white;
+      border-top: 0;
+      border-left: 0;
+      position: absolute;
+      transform: rotate(50deg);
+      left: 7px;
+      top: 3px;
+      transition: all .2s cubic-bezier(.71, -0.46, .88, .6), opacity .2s;
+    }
+  }
+  input {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,41 @@
+@import '../../styles/common';
+
+.input {
+  width: 100%;
+  &.inline {
+    display: flex;
+    .wrapper {
+      margin-left: auto;
+      min-width: 20rem;
+    }
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: .9rem;
+  }
+  p {
+    font-size: .9rem;
+    margin-top: 3px;
+    color: $grey-1;
+  }
+  .wrapper {
+    padding: 8px 15px;
+    border: 2px solid $white-4;
+    display: flex;
+    &.focused{
+      border-color: darken($primary-2, 10%)
+    }
+    select {
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: none;
+      background: transparent;
+      font-size: 1rem;
+      outline: none;
+      flex: 1;
+    }
+  }
+}
