@@ -25,9 +25,7 @@ export default function Icon(props) {
     const IconComponent = source
     return(
       <i className={classes}>
-        <IconComponent
-          className={styles.svg}
-        />
+        <IconComponent/>
       </i>
     )
   }

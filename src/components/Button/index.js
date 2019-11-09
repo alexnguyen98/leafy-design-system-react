@@ -38,13 +38,13 @@ export default function Button(props) {
   ) : null
 
   const content = loading ? (
-    <span className={styles.none}>
+    <span>
       <Icon
         size={iconSize}
         spin={true}
         source={Spinner}
       />
-      <span>{children}</span>
+      <span className={styles.none}>{children}</span>
     </span>
   ) : (
     <span className={styles.icon}>
@@ -78,7 +78,7 @@ Button.propTypes = {
     'large'
   ]),
   type: PropTypes.oneOf([
-    'normal',
+    'default',
     'primary',
     'secondary',
   ]),

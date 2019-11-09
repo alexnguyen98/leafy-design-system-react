@@ -1,4 +1,4 @@
-@import '../../styles/common';
+@import '../../styles/colors';
 @import '../../styles/_btn';
 
 .btn {
@@ -74,14 +74,14 @@
   i {
     color: currentColor;
   }
-}
-.none {
-  color: transparent;
-}
-.icon {
-  display: flex;
-  align-items: center;
-  i {
-    margin-right: 5px;
+  .none {
+    color: transparent;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    i {
+      margin-right: 5px;
+    }
   }
 }

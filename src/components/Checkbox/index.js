@@ -17,6 +17,9 @@ export default function Checkbox(props) {
     styles.checkbox, {
     [styles.checked]: checked
   })
+
+  const content = children ? (<span>{children}</span>) : null
+  const infoContet = infoMessage ? (<p>{infoMessage}</p>) : null
   
   return(
     <label className={classes}>
@@ -28,8 +31,8 @@ export default function Checkbox(props) {
         />
       </span>
       <div>
-        <span>{children}</span>
-        <p>{infoMessage}</p>
+        {content}
+        {infoContet}
       </div>
     </label>
   )
