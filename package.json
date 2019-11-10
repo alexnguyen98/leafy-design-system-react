@@ -1,6 +1,6 @@
 {
   "name": "leafy-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Leafy design system - react component library",
   "main": "thylakoid/index.js",
   "files": [
@@ -39,6 +39,7 @@
     "@storybook/addon-knobs": "^5.2.5",
     "@storybook/addons": "^5.2.5",
     "@storybook/react": "^5.2.5",
+    "@svgr/rollup": "^4.3.3",
     "@svgr/webpack": "^4.3.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
