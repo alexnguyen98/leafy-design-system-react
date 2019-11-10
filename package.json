@@ -1,5 +1,5 @@
 {
-  "name": "leafy-design-system",
+  "name": "leafy",
   "version": "0.0.1",
   "description": "Leafy design system - react component library",
   "main": "dist/index.js",
@@ -48,6 +48,7 @@
     "glob": "^7.1.5",
     "node-sass": "^4.13.0",
     "postcss-cssnext": "^3.1.0",
+    "postcss-modules": "^1.4.1",
     "postcss-nested": "^4.2.1",
     "postcss-simple-vars": "^5.0.2",
     "prop-types": "^15.7.2",
