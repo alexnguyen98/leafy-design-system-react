@@ -1,5 +1,5 @@
 {
-  "name": "leafy",
+  "name": "leafy-react",
   "version": "0.0.1",
   "description": "Leafy design system - react component library",
   "main": "dist/index.js",
