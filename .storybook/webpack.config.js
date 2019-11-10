@@ -1,6 +1,6 @@
 const path = require('path')
 
-const pathToInlineSvg = path.resolve(__dirname, '../src/icons')
+const pathToInlineSvg = path.resolve(__dirname, '../thylakoid-icons')
 
 module.exports = async ({ config, mode }) => {
 

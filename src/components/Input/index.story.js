@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { select, boolean, text, number } from "@storybook/addon-knobs"
 import Input from './index'
-import { Phone } from '../../icons'
+import { Phone } from '../../../thylakoid-icons'
 
 storiesOf('Input', module)
   .add('playground', () => {

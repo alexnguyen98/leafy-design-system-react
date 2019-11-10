@@ -1,8 +1,8 @@
 const fs = require('fs')
 const glob = require('glob')
 
-const indexPath = 'src/icons/index.js'
-const componentsPath = 'src/icons/'
+const indexPath = 'thylakoid-icons/index.js'
+const componentsPath = 'thylakoid-icons/'
 
 fs.writeFile(
   indexPath, 

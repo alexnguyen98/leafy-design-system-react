@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles.scss'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
-import { Spinner } from '../../icons'
+import { Spinner } from '../../../thylakoid-icons'
 import Icon from '../Icon'
 
 // TODO Add accessibility

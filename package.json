@@ -2,18 +2,18 @@
   "name": "leafy-react",
   "version": "0.0.3",
   "description": "Leafy design system - react component library",
-  "main": "dist/index.js",
-  "unpkg": "dist/simplealertcomponent.min.js",
+  "main": "thylakoid/index.js",
   "files": [
-    "dist/*",
-    "src/*"
+    "thylakoid/*",
+    "thylakoid-icons/*",
+    "src/styles/*"
   ],
   "scripts": {
     "generate-icon": "node scripts/iconIndex.js",
     "generate-component": "node scripts/iconIndex.js",
     "release": "standard-version",
     "lazygit": "git add . && git commit -a -m '$1' && git push origin master",
-    "build": "rm -rf dist && rollup -c scripts/rollup.config.js ",
+    "build": "rm -rf thylakoid && rollup -c scripts/rollup.config.js ",
     "publish": "npm run release && npm run lazygit && npm publish",
     "storybook": "start-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -47,11 +47,9 @@
     "babel-preset-react": "^6.24.1",
     "classnames": "^2.2.6",
     "css-loader": "^3.2.0",
-    "cssnano": "^4.1.10",
     "glob": "^7.1.5",
     "node-sass": "^4.13.0",
     "postcss-cssnext": "^3.1.0",
-    "postcss-modules": "^1.4.1",
     "postcss-nested": "^4.2.1",
     "postcss-simple-vars": "^5.0.2",
     "prop-types": "^15.7.2",

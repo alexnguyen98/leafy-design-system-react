@@ -3,7 +3,7 @@ import styles from './styles.scss'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 import Icon from '../Icon'
-import { Down } from '../../icons'
+import { Down } from '../../../thylakoid-icons'
 
 // TODO Add accessibility
 

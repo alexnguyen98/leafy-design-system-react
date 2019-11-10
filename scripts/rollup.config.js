@@ -8,16 +8,14 @@ import postcss from 'rollup-plugin-postcss'
 import simplevars from 'postcss-simple-vars'
 import nested from 'postcss-nested'
 import cssnext from 'postcss-cssnext'
-// import cssnano from 'cssnano'
 import analyze from 'rollup-plugin-analyzer'
-// import postCssModules from 'postcss-modules'
 
 export default [
   {
     input: 'src/components/index.js',
     output: {
       name: 'index',
-      file: 'dist/index.js',
+      file: 'thylakoid/index.js',
       format: 'umd',
       globals: {
         react: 'React',
@@ -37,28 +35,19 @@ export default [
       }),
       reactSvg(),
       postcss({
-        extract: 'dist/style.min.css',
+        extract: 'thylakoid/style.min.css',
         modules: {
           generateScopedName: '[hash:base64:4]'
         },
         minimize: true,
         use: ['sass'],
         plugins: [
-          // postCssModules({
-          //   generateScopedName: '[hash:base64:3]'
-          // }),
           simplevars(),
           nested(),
           cssnext({ warnForDuplicates: false, }),
-          // cssnano({
-          //   preset: [
-          //     'default',
-          //     { discardComments: { removeAll: true }}
-          //   ]
-          // }),
         ]
       })
     ],
     external: ['react','react-dom','classnames'],
-  }
+  },
 ]

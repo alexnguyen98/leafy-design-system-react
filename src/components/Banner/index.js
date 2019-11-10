@@ -3,7 +3,7 @@ import styles from './styles.scss'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 import Icon from '../Icon'
-import { InfoCircle, Warning, CheckCircle, Sound, Stop } from '../../icons'
+import { InfoCircle, Warning, CheckCircle, Sound, Stop } from '../../../thylakoid-icons'
 
 // TODO Add accessibility
 
