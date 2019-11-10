@@ -8,9 +8,9 @@ import postcss from 'rollup-plugin-postcss'
 import simplevars from 'postcss-simple-vars'
 import nested from 'postcss-nested'
 import cssnext from 'postcss-cssnext'
-import cssnano from 'cssnano'
+// import cssnano from 'cssnano'
 import analyze from 'rollup-plugin-analyzer'
-import postCssModules from 'postcss-modules'
+// import postCssModules from 'postcss-modules'
 
 export default [
   {
@@ -38,16 +38,24 @@ export default [
       reactSvg(),
       postcss({
         extract: 'dist/style.min.css',
-        modules: true,
+        modules: {
+          generateScopedName: '[hash:base64:4]'
+        },
+        minimize: true,
         use: ['sass'],
         plugins: [
-          postCssModules({
-            generateScopedName: '[hash:base64:1]'
-          }),
+          // postCssModules({
+          //   generateScopedName: '[hash:base64:3]'
+          // }),
           simplevars(),
           nested(),
           cssnext({ warnForDuplicates: false, }),
-          cssnano(),
+          // cssnano({
+          //   preset: [
+          //     'default',
+          //     { discardComments: { removeAll: true }}
+          //   ]
+          // }),
         ]
       })
     ],
