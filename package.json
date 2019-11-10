@@ -1,6 +1,6 @@
 {
   "name": "leafy-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Leafy design system - react component library",
   "main": "dist/index.js",
   "unpkg": "dist/simplealertcomponent.min.js",
@@ -11,7 +11,10 @@
   "scripts": {
     "generate-icon": "node scripts/iconIndex.js",
     "generate-component": "node scripts/iconIndex.js",
+    "release": "standard-version",
+    "lazygit": "git add . && git commit -a -m '$1' && git push origin master",
     "build": "rm -rf dist && rollup -c scripts/rollup.config.js ",
+    "publish": "npm run release && npm run lazygit && npm publish",
     "storybook": "start-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -65,6 +68,7 @@
     "rollup-plugin-react-svg": "^3.0.3",
     "rollup-plugin-terser": "^5.1.2",
     "sass-loader": "^8.0.0",
+    "standard-version": "^7.0.0",
     "style-loader": "^1.0.0"
   },
   "peerDependencies": {
