@@ -1,6 +1,6 @@
 {
   "name": "leafy-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Leafy design system - react component library",
   "main": "dist/index.js",
   "unpkg": "dist/simplealertcomponent.min.js",
