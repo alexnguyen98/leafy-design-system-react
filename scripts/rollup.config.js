@@ -9,6 +9,7 @@ import simplevars from 'postcss-simple-vars'
 import nested from 'postcss-nested'
 import cssnext from 'postcss-cssnext'
 import analyze from 'rollup-plugin-analyzer'
+import svgr from '@svgr/rollup'
 
 export default [
   {
@@ -50,4 +51,18 @@ export default [
     ],
     external: ['react','react-dom','classnames'],
   },
+  {
+    input: 'thylakoid-icons/index.js',
+    output: {
+      file: 'thylakoid-icons/index.js',
+      format: 'cjs',
+    },
+    plugins: [
+      svgr(),
+      babel({
+        exclude: 'node_modules/**',
+        extensions: ['.js','.svg'],
+      })
+    ]
+  }
 ]
