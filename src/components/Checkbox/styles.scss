@@ -1,4 +1,4 @@
-@import '../../styles/common';
+@import '../../styles/colors';
 
 .checkbox {
   display: flex;
@@ -22,12 +22,12 @@
     color: $grey-1;
   }
   .wrapper {
-    margin-right: 10px;
+    margin-right: 8px;
     position: relative;
     span {
       display: block;
-      width: 12px;
-      height: 12px;
+      width: 15px;
+      height: 15px;
       border: 3px solid $white-4;
       transition: all .05s cubic-bezier(.71, -0.46, .88, .6), opacity .05s;
       &::after {
@@ -41,8 +41,8 @@
         border-left: 0;
         position: absolute;
         transform: rotate(50deg);
-        left: 6px;
-        top: 3px;
+        left: 5px;
+        top: 2px;
         transition: all .2s cubic-bezier(.71, -0.46, .88, .6), opacity .2s;
       }
     }

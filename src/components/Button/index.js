@@ -70,7 +70,7 @@ Button.propTypes = {
   ]),
   disabled: PropTypes.bool,
   fullWidth: PropTypes.bool,
-  icon: PropTypes.string,
+  icon: PropTypes.func,
   onClick: PropTypes.func,
   size: PropTypes.oneOf([
     'slim',

@@ -3,7 +3,6 @@ import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
-import reactSvg from 'rollup-plugin-react-svg'
 import postcss from 'rollup-plugin-postcss'
 import simplevars from 'postcss-simple-vars'
 import nested from 'postcss-nested'
@@ -28,19 +27,19 @@ export default [
       peerDepsExternal(),
       babel({ exclude: 'node_modules/**' }),
       resolve(),
+      svgr(),
       commonjs(),
       terser({
         output: {
           comments: false
         }
       }),
-      reactSvg(),
       postcss({
-        extract: 'thylakoid/style.min.css',
+        extract: 'thylakoid/style.css',
         modules: {
           generateScopedName: '[hash:base64:4]'
         },
-        minimize: true,
+        // minimize: true,
         use: ['sass'],
         plugins: [
           simplevars(),

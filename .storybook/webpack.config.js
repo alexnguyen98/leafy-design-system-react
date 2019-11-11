@@ -4,11 +4,10 @@ const pathToInlineSvg = path.resolve(__dirname, '../thylakoid-icons')
 
 module.exports = async ({ config, mode }) => {
 
+const fileLoaderRule = config.module.rules.find(rule => rule.test.test('.svg'));
+fileLoaderRule.exclude = pathToInlineSvg;
 
-  const fileLoaderRule = config.module.rules.find(rule => rule.test.test('.svg'));
-  fileLoaderRule.exclude = pathToInlineSvg;
-
-  config.module.rules.push(
+config.module.rules.push(
     {
       test: /\.scss$/,
       use: [
@@ -39,6 +38,5 @@ module.exports = async ({ config, mode }) => {
       }],
     }
   )
-  // Return the altered config
   return config
 };

@@ -1,0 +1,15 @@
+@import './colors.scss';
+
+* {
+  box-sizing: border-box;
+  color: $black;
+  word-break: break-word;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

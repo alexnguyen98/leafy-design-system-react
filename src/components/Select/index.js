@@ -36,15 +36,15 @@ export default function Select(props) {
       </label>
       <div className={wrapperClasses}>
         <select
+          defaultValue={'DEFAULT'}
           onFocus={() => setFocus(true)}
           onBlur={() => setFocus(false)}
           onChange={onChange}
           type="select"
         >
           <option 
-            value="" 
-            selected 
-            disabled
+            disabled 
+            value="DEFAULT" 
           >{placeholder}</option>
           {items.map((value,i) =>
             <option key={i}>{value}</option>
