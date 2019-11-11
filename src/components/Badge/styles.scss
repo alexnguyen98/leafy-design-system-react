@@ -6,7 +6,7 @@
   border-radius: 50px;
   font-weight: 700;
   text-transform: capitalize;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   &.default {
     background: $white-2;

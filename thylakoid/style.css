@@ -4,8 +4,8 @@
   border-radius: 50px;
   font-weight: 700;
   text-transform: capitalize;
-  display: -webkit-box;
-  display: flex;
+  display: -webkit-inline-box;
+  display: inline-flex;
   -webkit-box-align: center;
           align-items: center; }
   ._1e-5._1kmJ {
@@ -170,13 +170,13 @@
     width: 100%; }
   ._2jjj._1cXY {
     font-size: .8rem;
-    padding: 7.2px 12.8px; }
+    padding: 7.2px 12px; }
   ._2jjj._3Gpe {
     font-size: 1rem;
-    padding: 9px 16px; }
+    padding: 9px 15px; }
   ._2jjj._3bRl {
     font-size: 1.2rem;
-    padding: 10.8px 19.2px; }
+    padding: 10.8px 18px; }
   ._2jjj._2sNb {
     background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f9fafb));
     background: linear-gradient(white, #f9fafb); }
