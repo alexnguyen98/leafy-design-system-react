@@ -1,6 +1,6 @@
 {
   "name": "leafy-react",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Leafy design system - react component library",
   "main": "thylakoid/index.js",
   "files": [
@@ -11,11 +11,13 @@
   "scripts": {
     "generate-icon": "node scripts/iconIndex.js",
     "generate-component": "node scripts/iconIndex.js",
+    "gulp": "gulp style --gulpfile scripts/gulpfile.js",
+    "rollup": "rollup -c scripts/rollup.config.js",
     "release": "standard-version",
     "lazygit": "git add . && git commit -a -m '$1' && git push origin master",
-    "build": "rm -rf thylakoid && rollup -c scripts/rollup.config.js ",
+    "build": "rm -rf thylakoid && npm run generate-icon && npm run rollup && npm run gulp",
     "publish": "npm run release && npm run lazygit && npm publish",
-    "storybook": "start-storybook",
+    "storybook": "npm run generate-icon && start-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -49,6 +51,11 @@
     "classnames": "^2.2.6",
     "css-loader": "^3.2.0",
     "glob": "^7.1.5",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "merge-stream": "^2.0.0",
     "node-sass": "^4.13.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-nested": "^4.2.1",
@@ -56,7 +63,6 @@
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-svg-loader": "^3.0.3",
     "rollup": "^1.26.3",
     "rollup-plugin-analyzer": "^3.2.2",
     "rollup-plugin-babel": "^4.3.3",
@@ -64,7 +70,6 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-react-svg": "^3.0.3",
     "rollup-plugin-terser": "^5.1.2",
     "sass-loader": "^8.0.0",
     "standard-version": "^7.0.0",
