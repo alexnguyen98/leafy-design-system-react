@@ -6,7 +6,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
 import simplevars from 'postcss-simple-vars'
 import nested from 'postcss-nested'
-import cssnext from 'postcss-cssnext'
+import cssenv from 'postcss-preset-env'
 import analyze from 'rollup-plugin-analyzer'
 import svgr from '@svgr/rollup'
 
@@ -39,12 +39,11 @@ export default [
         modules: {
           generateScopedName: '[hash:base64:4]'
         },
-        // minimize: true,
         use: ['sass'],
         plugins: [
+          cssenv(),
           simplevars(),
           nested(),
-          cssnext({ warnForDuplicates: false, }),
         ]
       })
     ],

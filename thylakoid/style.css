@@ -1,16 +1,12 @@
 ._1e-5 {
   padding: 5px 15px;
-  font-size: 12.8px;
-  font-size: 12.8px;
   font-size: .8rem;
   border-radius: 50px;
   font-weight: 700;
   text-transform: capitalize;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center; }
   ._1e-5._1kmJ {
     background: #ebebeb;
@@ -32,18 +28,10 @@
   display: inline-block;
   margin: auto; }
   .tY7C._2jG3 {
-    height: 16px;
-    height: 16px;
     height: 1rem;
-    width: 16px;
-    width: 16px;
     width: 1rem; }
   .tY7C._1eOK {
-    height: 20.8px;
-    height: 20.8px;
     height: 1.3rem;
-    width: 20.8px;
-    width: 20.8px;
     width: 1.3rem; }
   .tY7C._3Mtb {
     color: #21be7d; }
@@ -68,7 +56,7 @@
   .tY7C.kZij {
     color: #c4cdd5; }
   .tY7C.G2vZ {
-    color: rgba(15, 15, 15, .84); }
+    color: rgba(15, 15, 15, 0.84); }
   .tY7C._2jPx {
     color: #6e6e6e; }
   .tY7C svg {
@@ -113,16 +101,12 @@
 
 
 ._3d8a {
-  max-width: 480px;
-  max-width: 480px;
   max-width: 30rem;
   width: 100%;
   padding: 10px 15px;
-  -webkit-box-shadow: 0px 5px 16px 0px rgba(57, 77, 103, .103);
-          box-shadow: 0px 5px 16px 0px rgba(57, 77, 103, .103);
+  box-shadow: 0px 5px 16px 0px rgba(57, 77, 103, 0.103);
   border: 2px solid #ebebeb;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   ._3d8a._1L6A {
     background: #fff; }
@@ -151,23 +135,18 @@
   ._3d8a ._1y6O h4 {
     margin: 0;
     margin-bottom: 5px;
-    color: rgba(15, 15, 15, .84); }
+    color: rgba(15, 15, 15, 0.84); }
   ._3d8a ._1y6O p {
-    font-size: 12.8px;
-    font-size: 12.8px;
     font-size: .8rem;
     color: #4b4b4b;
     margin: 0; }
 
 ._2jjj {
   display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   white-space: nowrap;
   border: 2px solid #d9dde6;
@@ -190,18 +169,12 @@
   ._2jjj.rhW0 {
     width: 100%; }
   ._2jjj._1cXY {
-    font-size: 12.8px;
-    font-size: 12.8px;
     font-size: .8rem;
     padding: 7.2px 12.8px; }
   ._2jjj._3Gpe {
-    font-size: 16px;
-    font-size: 16px;
     font-size: 1rem;
     padding: 9px 16px; }
   ._2jjj._3bRl {
-    font-size: 19.2px;
-    font-size: 19.2px;
     font-size: 1.2rem;
     padding: 10.8px 19.2px; }
   ._2jjj._2sNb {
@@ -232,7 +205,7 @@
     margin-left: auto; }
   ._2jjj._2fPI {
     margin: 0 auto; }
-  ._2jjj i {
+  ._2jjj * {
     color: currentColor; }
   ._2jjj span {
     font-weight: bold; }
@@ -240,21 +213,17 @@
     color: transparent; }
   ._2jjj .QKFC {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center; }
     ._2jjj .QKFC i {
       margin-right: 5px; }
 
 ._2xPB {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   cursor: pointer;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center; }
   ._2xPB._1kRB .NoZz span {
     border-color: #16a9ce;
@@ -268,8 +237,6 @@
   ._2xPB p {
     margin: 0;
     margin-top: 3px;
-    font-size: 12.8px;
-    font-size: 12.8px;
     font-size: .8rem;
     color: #6e6e6e; }
   ._2xPB .NoZz {
@@ -308,50 +275,33 @@
       opacity: 0; }
 
 ._3FyD {
-  color: rgba(15, 15, 15, .84); }
+  color: rgba(15, 15, 15, 0.84); }
   ._3FyD._10sN {
-    font-size: 32px;
-    font-size: 32px;
     font-size: 2rem; }
   ._3FyD._3rnz {
-    font-size: 28.8px;
-    font-size: 28.8px;
     font-size: 1.8rem; }
   ._3FyD._351L {
-    font-size: 22.4px;
-    font-size: 22.4px;
     font-size: 1.4rem; }
   ._3FyD.cBE5 {
-    font-size: 16px;
-    font-size: 16px;
     font-size: 1rem; }
 
 ._1joc {
   width: 100%; }
   ._1joc._1tyC {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
     ._1joc._1tyC ._1xfB {
       margin-left: auto;
-      min-width: 320px;
-      min-width: 320px;
       min-width: 20rem; }
   ._1joc label {
     display: block;
     margin-bottom: 5px;
-    font-size: 14.4px;
-    font-size: 14.4px;
     font-size: .9rem; }
   ._1joc .QK5b {
-    font-size: 14.4px;
-    font-size: 14.4px;
     font-size: .9rem;
     margin-top: 3px;
     color: #6e6e6e; }
   ._1joc ._2yFA {
-    font-size: 14.4px;
-    font-size: 14.4px;
     font-size: .9rem;
     margin-top: 3px;
     color: #d32542; }
@@ -359,7 +309,6 @@
     padding: 8px 10px;
     border: 2px solid #c4cdd5;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
     ._1joc ._1xfB._23Lq {
       border-color: #158157; }
@@ -369,22 +318,23 @@
     ._1joc ._1xfB input {
       border: none;
       background: transparent;
-      font-size: 16px;
-      font-size: 16px;
       font-size: 1rem;
       outline: none;
       -webkit-box-flex: 1;
-          -ms-flex: 1;
               flex: 1; }
       ._1joc ._1xfB input::-webkit-input-placeholder {
         color: grey; }
       ._1joc ._1xfB input::-moz-placeholder {
+        color: grey; }
+      ._1joc ._1xfB input:-ms-input-placeholder {
         color: grey; }
       ._1joc ._1xfB input::-ms-input-placeholder {
         color: grey; }
       .input .wrapper input::-webkit-input-placeholder {
         color: grey; }
       .input .wrapper input::-moz-placeholder {
+        color: grey; }
+      .input .wrapper input:-ms-input-placeholder {
         color: grey; }
       .input .wrapper input::-ms-input-placeholder {
         color: grey; }
@@ -396,16 +346,12 @@
 ._4L5y {
   background: transparent;
   border: none;
-  font-size: 16px;
-  font-size: 16px;
   font-size: 1rem;
   cursor: pointer;
   font-weight: 700;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
   padding: 0; }
@@ -426,22 +372,15 @@
   width: 100%; }
   ._2j1m._2zmy {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
     ._2j1m._2zmy ._242v {
       margin-left: auto;
-      min-width: 320px;
-      min-width: 320px;
       min-width: 20rem; }
   ._2j1m label {
     display: block;
     margin-bottom: 5px;
-    font-size: 14.4px;
-    font-size: 14.4px;
     font-size: .9rem; }
   ._2j1m p {
-    font-size: 14.4px;
-    font-size: 14.4px;
     font-size: .9rem;
     margin-top: 3px;
     color: #6e6e6e; }
@@ -449,7 +388,6 @@
     padding: 8px 15px;
     border: 2px solid #c4cdd5;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
     ._2j1m ._242v._32HC {
       border-color: #158157; }
@@ -460,57 +398,39 @@
       -moz-appearance: none;
       border: none;
       background: transparent;
-      font-size: 16px;
-      font-size: 16px;
       font-size: 1rem;
       outline: none;
       -webkit-box-flex: 1;
-          -ms-flex: 1;
               flex: 1; }
 
 ._3EKD {
-  color: rgba(15, 15, 15, .84);
-  font-size: 16px;
-  font-size: 16px;
+  color: rgba(15, 15, 15, 0.84);
   font-size: 1rem;
   text-transform: uppercase; }
 
 .fTkA {
   color: grey;
-  font-size: 16px;
-  font-size: 16px;
   font-size: 1rem; }
 
 ._1ApX {
   width: 100%; }
   ._1ApX._3UDM {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
     ._1ApX._3UDM div {
       margin-left: auto;
-      min-width: 320px;
-      min-width: 320px;
       min-width: 20rem; }
   ._1ApX label {
     display: block;
     margin-bottom: 5px;
-    font-size: 14.4px;
-    font-size: 14.4px;
     font-size: .9rem; }
   ._1ApX p {
-    font-size: 14.4px;
-    font-size: 14.4px;
     font-size: .9rem;
     margin-top: 3px;
     color: #6e6e6e; }
   ._1ApX textarea {
-    font-size: 16px;
-    font-size: 16px;
     font-size: 1rem;
     width: 100%;
-    min-height: 48px;
-    min-height: 48px;
     min-height: 3rem;
     padding: 10px;
     border: 2px solid #c4cdd5;
@@ -521,11 +441,15 @@
       color: grey; }
     ._1ApX textarea::-moz-placeholder {
       color: grey; }
+    ._1ApX textarea:-ms-input-placeholder {
+      color: grey; }
     ._1ApX textarea::-ms-input-placeholder {
       color: grey; }
     .textarea textarea::-webkit-input-placeholder {
       color: grey; }
     .textarea textarea::-moz-placeholder {
+      color: grey; }
+    .textarea textarea:-ms-input-placeholder {
       color: grey; }
     .textarea textarea::-ms-input-placeholder {
       color: grey; }
